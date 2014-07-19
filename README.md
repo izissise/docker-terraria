@@ -24,7 +24,7 @@ that you can easily map a proxy to. If this is the only thing running on your
 system you can map the port to 7777 and no proxy is needed. i.e.
 `-p=7777:7777`.
 
-    docker.io run -i -t -p 7777:7777 --name="terraria" izissise/terraria
+    docker.io run -i -p 7777:7777 --name="terraria" izissise/terraria
 
 From now on when you start/stop docker-terraria you should use the container id
 with the following commands. To get your container id, after you initial run
