@@ -10,7 +10,7 @@ You can simply take the image from the official repository with:
 ## Building docker-terraria
 
 Running this will build you a docker image with the latest version of both
-docker-terraria and Armagetronad-0.2.9-sty+ct+ap itself.
+docker-terraria and TShock itself.
 
     git clone https://github.com/izissise/docker-terraria
     cd docker-terraria

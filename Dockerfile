@@ -9,7 +9,7 @@ RUN apt-get -y update
 
 RUN apt-get -y install wget unzip mono-complete
 
-RUN mkdir tshock && wget "https://github.com/NyxStudios/TShock/releases/download/v4.2300/TShock.4.2.3.0702.zip" -O TShock.zip && unzip TShock.zip -d tshock/
+RUN mkdir tshock && wget "https://github.com/NyxStudios/TShock/releases/download/v4.2301/TShock.4.2.3.0720.zip" -O TShock.zip && unzip TShock.zip -d tshock/
 
 ADD run.sh /
 RUN chmod 755 run.sh
