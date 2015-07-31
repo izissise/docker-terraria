@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd tshock
-mono ./TerrariaServer.exe
+mono ./TerrariaServer.exe -configpath "/tshock/config.json"
