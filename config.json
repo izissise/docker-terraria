@@ -131,6 +131,6 @@
   "SaveWorldOnLastPlayerExit": true,
   "BCryptWorkFactor": 7,
   "MinimumPasswordLength": 4,
-  "VeryDangerousDoNotChangeEnableDrillContainmentUnit": false,
+  "VeryDangerousDoNotChangeEnableDrillContainmentUnit": true,
   "ShowBackupAutosaveMessages": true
 }
